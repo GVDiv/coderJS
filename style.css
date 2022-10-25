@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 90px;
+    height: 90px;
+    margin: 5px 5px;
+}
+#cart{
+    font-size: 30px;
+    margin: 10px;
+}
+.deleteProduct{
+    cursor: pointer;
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+}
+.card{
+        align-items: center;
+    gap: 1rem;
+}
+.productos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+}
+.item{
+    background-color: #333;
+    color: #fff;
+    position: relative;
+
+    width: 100%;
+    top: 50px;
+    margin: 1rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.cartProducts{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 300px;
+    height: 200px;
+}
