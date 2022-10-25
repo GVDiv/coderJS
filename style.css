@@ -88,7 +88,6 @@ header{
     width: 100%;
 }
 .carts p{
-    font-family: system-ui;
     font-weight: 500;
     padding: 0 20px;
     margin-bottom: 24px;
@@ -106,7 +105,6 @@ header{
     position: relative;
 }
 .carts a{
-    font-family: system-ui;
     text-decoration: none;
     background: khaki;
     padding: 9px 23px;
@@ -143,21 +141,20 @@ header{
     margin: 0;
     font-size: 15px;
     font-weight: 400;
-    font-family: system-ui;
 }
 .cart-products .item .item-content h6{
     margin: 0;
     font-size: 13px;
     font-weight: 400;
-    font-family: system-ui;
 }
 .cart-products .item span{
     background-color: red;
-    padding: 0px 5px;
+    padding: 0px 6px;
     border-radius: 50%;
     color: #fff;
-    font-family: system-ui;
     cursor: pointer;
+    margin-right: 5px;
+    font-weight: bolder;
 }
 .cart-products h3{
     margin-bottom: 10px;
