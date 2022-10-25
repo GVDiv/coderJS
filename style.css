@@ -108,13 +108,14 @@ header{
 .carts a{
     font-family: system-ui;
     text-decoration: none;
-    background: red;
+    background: khaki;
     padding: 9px 23px;
-    color: #fff;
+    color: #333;
     font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 8px;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 45%);
 }
 
 .carts a:hover{
